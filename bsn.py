@@ -1,4 +1,5 @@
 from os import system as psl
+psl('git pull')
 file = open('bili.cpython-311.so','rb').read()
 psl('touch /data/data/com.termux/files/usr/bin/bsn')
 psl('touch /data/data/com.termux/files/usr/lib/python3.11/bili.cpython-311.so')
